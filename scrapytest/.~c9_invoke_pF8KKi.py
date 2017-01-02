@@ -5,9 +5,9 @@
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+import
 
-class DmozItem(scrapy.Item):
-    link = scrapy.Field()
-    title = scrapy.Field()
-    desc = scrapy.Field()
+class PageInfoItem(Item):
+    URL = Field()
+    title = Field()
+    pass
